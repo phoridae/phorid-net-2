@@ -1,0 +1,107 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    color: #333;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.logo {
+    margin-right: 2rem;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-item {
+    position: relative;
+    margin-right: 1.5rem;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.dropdown-toggle:focus {
+    outline: none;
+}
+
+.nav-item-hover:hover {
+    color: #666;
+}
+
+.full-page-dropdown {
+    position: fixed;
+    /* top: 4rem; Align dropdown right below navbar */
+    left: 20%;
+    width: 60%;
+    height: calc(100vh - 4rem);
+    background: #f6f6f6;
+    backdrop-filter: blur(150px); /* Increased blur intensity */
+    padding: 2rem;
+    transition: opacity 0.3s ease, visibility 0.8s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.nav-item:hover .full-page-dropdown {
+    opacity: .97;
+    visibility: visible;
+    display: block;
+    backdrop-filter: blur(1150px); /* Increased blur intensity */
+
+    
+}
+
+.full-page-dropdown p {
+    margin: 0;
+    color: #333;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.sign-in img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Hover effect for dropdown */
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+/* Hide dropdown by default */
+.dropdown {
+    display: none;
+}
