@@ -1,1 +1,5 @@
+# Exlude node modules
 node_modules
+
+# Exclude github pages build files
+/build
