@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/phorid-net-2/static/css/main.eafdcf12.css",
-    "main.js": "/phorid-net-2/static/js/main.127ed01d.js",
+    "main.css": "/phorid-net-2/static/css/main.cd3f26f9.css",
+    "main.js": "/phorid-net-2/static/js/main.413f665a.js",
     "static/js/453.a351d9a0.chunk.js": "/phorid-net-2/static/js/453.a351d9a0.chunk.js",
     "static/media/myriophora_feeding.mp4": "/phorid-net-2/static/media/myriophora_feeding.5b5b7238eb2cbeca13c1.mp4",
     "static/media/LACM_ENT_068159_longa_habitus.png": "/phorid-net-2/static/media/LACM_ENT_068159_longa_habitus.9ad1e4fbba6e5042ed71.png",
@@ -9,6 +9,7 @@
     "static/media/taxonomy-girl-at-microscope.png": "/phorid-net-2/static/media/taxonomy-girl-at-microscope.64177f5bd8e8ae5bd038.png",
     "static/media/stock_dummy_people_photo.png": "/phorid-net-2/static/media/stock_dummy_people_photo.ecc546bd0673019d613e.png",
     "static/media/megaselia_mithridates.png": "/phorid-net-2/static/media/megaselia_mithridates.c883b37f079a21740e6e.png",
+    "static/media/Megaselia_logo.jpg": "/phorid-net-2/static/media/Megaselia_logo.ee73604c42eadc87d3b3.jpg",
     "static/media/pnews8.pdf": "/phorid-net-2/static/media/pnews8.22ec2b6819d756fe0dc9.pdf",
     "static/media/pnews10.pdf": "/phorid-net-2/static/media/pnews10.fea4a606795680968b7b.pdf",
     "static/media/pnews12.pdf": "/phorid-net-2/static/media/pnews12.ad72dcc56b4fe07be9e9.pdf",
@@ -27,19 +28,18 @@
     "static/media/pnews2.pdf": "/phorid-net-2/static/media/pnews2.d1cd6f7ae60affdff450.pdf",
     "static/media/pnews3.pdf": "/phorid-net-2/static/media/pnews3.e956092fdfd7b05554ba.pdf",
     "static/media/pcat.png": "/phorid-net-2/static/media/pcat.ef63c03b28c42301310a.png",
-    "static/media/Megaselia_logo.jpg": "/phorid-net-2/static/media/Megaselia_logo.105608d7ccdeb73561fd.jpg",
     "static/media/Dohrniphora_apharea.jpg": "/phorid-net-2/static/media/Dohrniphora_apharea.bbc1ee5c74561169010d.jpg",
     "static/media/automatex.png": "/phorid-net-2/static/media/automatex.4c6a4127c5b010bc3630.png",
     "static/media/pnews9.pdf": "/phorid-net-2/static/media/pnews9.b57e2a12c72553550458.pdf",
     "static/media/keys.png": "/phorid-net-2/static/media/keys.2b22463d20845fb287b1.png",
     "static/media/phoridNewsletters.png": "/phorid-net-2/static/media/phoridNewsletters.be2155fed69fe65341bf.png",
     "index.html": "/phorid-net-2/index.html",
-    "main.eafdcf12.css.map": "/phorid-net-2/static/css/main.eafdcf12.css.map",
-    "main.127ed01d.js.map": "/phorid-net-2/static/js/main.127ed01d.js.map",
+    "main.cd3f26f9.css.map": "/phorid-net-2/static/css/main.cd3f26f9.css.map",
+    "main.413f665a.js.map": "/phorid-net-2/static/js/main.413f665a.js.map",
     "453.a351d9a0.chunk.js.map": "/phorid-net-2/static/js/453.a351d9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eafdcf12.css",
-    "static/js/main.127ed01d.js"
+    "static/css/main.cd3f26f9.css",
+    "static/js/main.413f665a.js"
   ]
 }
