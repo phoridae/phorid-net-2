@@ -1,31 +1,37 @@
 import React from 'react';
-import './Footer.css'; // Assuming the CSS is stored here
-import logo from '../assets/images/melaloncha_face_illustration.png'; // Path to your footer image
+import { Link } from 'react-router-dom';
+import './Footer.css';
+import logo from '../assets/images/melaloncha_face_illustration.png';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-links">
-        <a href="#!">Maps</a>
-        <a href="#!">Keys</a>
-        <a href="#!">Taxa</a>
-        <a href="#!">Projects</a>
-        <a href="#!">People</a>
-        <a href='#!'>About</a>
-      </div>
+      
+      {/* Top navigation links */}
+      <nav className="footer-links">
+        <Link to="/phoridae/newsletters">Newsletters</Link>
+        <Link to="/phoridae/identificationKeys">Keys</Link>
+        <Link to="/phoridae/photoGallery">Gallery</Link>
+        <Link to="/phoridae/morphometrics">Morphometrics</Link>
+        <Link to="/about">About</Link>
+        <Link to="/people">People</Link>
+      </nav>
+
+      {/* Center logo */}
       <div className="footer-logo">
-        <img src={logo} alt="Footer Logo" />
+        <img src={logo} alt="Melaloncha illustration" />
       </div>
+
+      {/* Bottom bar */}
       <div className="footer-bottom">
-        <div className="footer-text">phorid.net 2025</div>
+        <div className="footer-text">
+          © 2025 <strong>phorid.net</strong>
+        </div>
+
         <div className="social-links">
-          {/* Placeholder icons, replace with actual icons */}
-          <a href="#!"><i className="icon-x"></i></a>
-          <a href="#!"><i className="icon-youtube"></i></a>
-          <a href="#!"><i className="icon-linkedin"></i></a>
-          <a href="#!"><i className="icon-github"></i></a>
-          <a href="#!"><i className="icon-instagram"></i></a>
-          <a href="#!"><i className="icon-bluesky"></i></a>
+          <a href="https://github.com/phoridae" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" aria-disabled>Bluesky</a>
+          <a href="#" aria-disabled>Instagram</a>
         </div>
       </div>
     </footer>
